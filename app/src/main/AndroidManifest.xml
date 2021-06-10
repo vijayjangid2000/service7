@@ -26,6 +26,9 @@
 
         <receiver android:name=".MyNotificationPublisher" />
 
+        <service android:name=".MyService"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
